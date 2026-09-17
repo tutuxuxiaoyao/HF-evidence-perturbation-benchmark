@@ -1,0 +1,15 @@
+R >= 4.3 recommended
+
+Base-R primary reproduction:
+- No external R packages required.
+
+Figure regeneration:
+- ggplot2
+- dplyr
+- tidyr
+- patchwork
+- scales
+- svglite
+- ragg
+
+The figure scripts install missing CRAN packages automatically unless that behavior is removed by the user.
