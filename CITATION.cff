@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this reproducibility archive, please cite the associated NAR Genomics and Bioinformatics article."
+message: "If you use this reproducibility archive, please cite this software archive and the associated NAR Genomics and Bioinformatics article when available."
 title: "HF evidence-to-perturbation cross-system benchmark: reproducibility archive"
 type: software
 authors:
@@ -11,6 +11,18 @@ authors:
     given-names: Yuanyuan
   - family-names: Fan
     given-names: Wenjun
+version: 1.0.0
+date-released: 2026-09-17
 year: 2026
 license: MIT
 repository-code: "https://github.com/tutuxuxiaoyao/HF-evidence-perturbation-benchmark"
+keywords:
+  - heart failure
+  - functional genomics
+  - perturbation
+  - benchmarking
+  - target prioritization
+  - transcriptomics
+  - genetics
+  - cardiomyocytes
+abstract: "Reproducibility archive for a cross-system benchmark evaluating whether adult-human heart-failure transcriptomic and genetic evidence predicts independently measured cardiomyocyte perturbation effects across multiple systems."
