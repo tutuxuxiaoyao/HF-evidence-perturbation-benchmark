@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility archive, please cite the associated NAR Genomics and Bioinformatics article."
+title: "HF evidence-to-perturbation cross-system benchmark: reproducibility archive"
+type: software
+authors:
+  - family-names: Jiang
+    given-names: Yufen
+  - family-names: Liu
+    given-names: Tingting
+  - family-names: Zhao
+    given-names: Yuanyuan
+  - family-names: Fan
+    given-names: Wenjun
+year: 2026
+license: MIT
+repository-code: "https://github.com/tutuxuxiaoyao/HF-evidence-perturbation-benchmark"
