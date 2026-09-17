@@ -1,58 +1,56 @@
 # HF evidence-to-perturbation cross-system benchmark
 
-Reproducibility archive for the manuscript:
+Reproducibility repository for the manuscript:
 
 **Cross-system benchmarking reveals limited predictive transfer from human heart failure evidence to cardiomyocyte perturbation effects**
 
-## What this archive reproduces
+## What this repository contains
 
-This archive contains:
-- frozen target-level evidence and perturbation tables used in the benchmark;
-- exact target-level out-of-fold tables for E1/E2, E4, and corrected E5 analyses;
-- retained robustness and permutation result tables;
-- post hoc cross-system concordance and detectability-calibration outputs;
-- code that re-fits the primary target-level out-of-fold models from the frozen tables and verifies the reported primary metrics;
-- code that regenerates the three main publication figures from frozen result tables;
-- machine-readable manifests and frozen analysis-protocol files.
+The repository provides:
+- code for the primary target-level out-of-fold reproduction audit;
+- scripts that regenerate the three main manuscript figures from frozen numerical source data;
+- frozen numerical source-data tables for the three main figures;
+- transparent documentation of the scope and limits of retained code;
+- software-environment, citation, and licensing metadata.
 
-The primary reproduction script was independently checked against the retained target-level tables and reproduces the primary OOF predictions and reported delta-OOF-R2 values to numerical precision.
+The primary reproduction code was independently checked against the retained frozen target-level tables and reproduced the primary OOF predictions and reported delta-OOF-R2 values to numerical precision.
 
 ## Quick start
 
-From the repository root:
+To regenerate the three main figures from the numerical source data already included here:
+
+```r
+source("scripts/02_figure1_primary_validity.R")
+source("scripts/03_figure2_model_robustness.R")
+source("scripts/04_figure3_structural_robustness.R")
+```
+
+The primary target-level audit script is:
 
 ```r
 source("scripts/01_primary_oof_reproduction.R")
 ```
 
-To regenerate all three main figures as well:
+That audit requires the larger frozen target-level data bundle described in `DATA_AVAILABILITY.md`. A versioned archival deposit should be linked here before journal submission.
 
-```r
-source("run_all.R")
-```
+## Repository structure
 
-The primary reproduction uses base R only. Figure regeneration requires the packages listed in `R_ENVIRONMENT_REQUIREMENTS.txt`.
+- `scripts/` — primary OOF audit and figure-regeneration scripts
+- `source_data/` — frozen numerical source data for the three main figures
+- `DATA_AVAILABILITY.md` — data provenance and reproducibility scope
+- `R_ENVIRONMENT_REQUIREMENTS.txt` — software requirements
+- `CITATION.cff` — citation metadata
+- `LICENSE` — MIT license for repository code
 
-## Directory structure
+## Public biological inputs
 
-- `scripts/` - primary OOF reproduction and publication-figure scripts
-- `03_results/Stage1B_core_benchmark_E1_E2/` - frozen core E1/E2 benchmark
-- `03_results/Stage1B_E4_genetics_frozen_plan/` - E4 and corrected E5 benchmark files
-- `03_results/Stage1B_null_robustness/` - fixed model-sensitivity and target-label controls
-- `03_results/Stage1B_final_null_validation/` - structural blocking, source removal and disease-label controls
-- `03_results/posthoc_calibration/` - cross-system outcome concordance and detectability calibration
-- `source_data/` - numerical source data used for figures
-- `manifests/` - frozen protocols and provenance manifests
+The biological input datasets are third-party public resources cited in the manuscript. Raw third-party biological data are not redistributed here where the original study or repository is the appropriate source.
 
-## Public source data
+## Reproducibility boundary
 
-The biological input datasets are third-party public resources cited in the manuscript. This archive intentionally does not redistribute raw controlled or third-party biological data where the original repository is the appropriate source.
+The historical project did not retain every upstream source-reconstruction script as a clean standalone script. This repository therefore does not claim complete reconstruction from raw public downloads. It provides the retained target-level reproduction logic and figure-level reproducibility without fabricating missing provenance.
 
-## Scope of retained code
-
-The archive provides exact primary OOF re-fitting from the frozen target-level tables and figure regeneration from frozen result tables. The historical project did not retain every upstream source-reconstruction script in a clean standalone form. To avoid fabricating provenance, this archive does not claim otherwise. Source reconstruction is documented in the manuscript Methods and frozen protocol/manifests included here.
-
-## Repository
+## Repository URL
 
 https://github.com/tutuxuxiaoyao/HF-evidence-perturbation-benchmark
 
