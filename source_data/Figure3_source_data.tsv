@@ -1,0 +1,61 @@
+panel	system	block	outcome_transform	functional_form	metric	estimate	CI_low	CI_high	permutation_mean	permutation_q025	permutation_q975	empirical_p
+A	K2	E2	identity	linear	delta_OOF_R2	-0.00029053312942251						
+A	K2	E2	log1p	linear	delta_OOF_R2	-0.0011080514815629						
+A	K2	E2	rank	linear	delta_OOF_R2	-0.00179166892903404						
+A	K2	E2	identity	spline	delta_OOF_R2	0.000904537400941763						
+A	K2	E4	identity	linear	delta_OOF_R2	-0.000845324957399418						
+A	K2	E4	log1p	linear	delta_OOF_R2	-0.00128507467781169						
+A	K2	E4	rank	linear	delta_OOF_R2	-0.000994409126622964						
+A	K2	E4	identity	spline	delta_OOF_R2	-0.00332560398751958						
+A	K2	E5	identity	linear	delta_OOF_R2	-0.00147112854634068						
+A	K2	E5	log1p	linear	delta_OOF_R2	-0.00400299773141066						
+A	K2	E5	rank	linear	delta_OOF_R2	-0.0032883974736484						
+A	K2	E5	identity	spline	delta_OOF_R2	-0.00264050853737929						
+A	K3	E2	identity	linear	delta_OOF_R2	-0.00873725999234365						
+A	K3	E2	log1p	linear	delta_OOF_R2	-0.00860547315860827						
+A	K3	E2	rank	linear	delta_OOF_R2	0.0012568814536249						
+A	K3	E2	identity	spline	delta_OOF_R2	-0.00365999009395046						
+A	K3	E4	identity	linear	delta_OOF_R2	-0.0101952294507408						
+A	K3	E4	log1p	linear	delta_OOF_R2	-0.0100807360249633						
+A	K3	E4	rank	linear	delta_OOF_R2	-0.00064926383785946						
+A	K3	E4	identity	spline	delta_OOF_R2	-0.0261641102017052						
+A	K3	E5	identity	linear	delta_OOF_R2	0.00252355810443028						
+A	K3	E5	log1p	linear	delta_OOF_R2	0.00263575151488649						
+A	K3	E5	rank	linear	delta_OOF_R2	-0.00503617236818843						
+A	K3	E5	identity	spline	delta_OOF_R2	0.00482891393974194						
+A	K4	E2	identity	linear	delta_OOF_R2	3.90712572280183e-05						
+A	K4	E2	log1p	linear	delta_OOF_R2	2.73958669823049e-05						
+A	K4	E2	rank	linear	delta_OOF_R2	-6.29468322703719e-05						
+A	K4	E2	identity	spline	delta_OOF_R2	3.93104129463584e-05						
+A	K4	E4	identity	linear	delta_OOF_R2	-0.000406323504617001						
+A	K4	E4	log1p	linear	delta_OOF_R2	-0.000512546481906462						
+A	K4	E4	rank	linear	delta_OOF_R2	-0.000589588816283237						
+A	K4	E4	identity	spline	delta_OOF_R2	-0.000503985416427044						
+A	K4	E5	identity	linear	delta_OOF_R2	-0.000424569209769299						
+A	K4	E5	log1p	linear	delta_OOF_R2	-0.00019154933836063						
+A	K4	E5	rank	linear	delta_OOF_R2	5.11291206679587e-05						
+A	K4	E5	identity	spline	delta_OOF_R2	-0.00130205348184931						
+A	K2	JOINT	identity	linear	delta_OOF_R2	-0.00112149707978859						
+A	K2	JOINT	identity	spline	delta_OOF_R2	-0.000390472191329927						
+A	K3	JOINT	identity	linear	delta_OOF_R2	-0.0130024264185415						
+A	K3	JOINT	identity	spline	delta_OOF_R2	-0.0140679522434355						
+A	K4	JOINT	identity	linear	delta_OOF_R2	-0.00118970408090835						
+A	K4	JOINT	identity	spline	delta_OOF_R2	-0.00256476454471488						
+B	K2	JOINT	identity	linear	delta_OOF_R2	-0.00112149707978859	-0.0169196979536135	0.00211160891663261				
+B	K2	JOINT	identity	spline	delta_OOF_R2	-0.000390472191329927	-0.0387213969613135	0.00697143644537064				
+B	K3	JOINT	identity	linear	delta_OOF_R2	-0.0130024264185415	-0.057119246493605	0.0201657580711651				
+B	K3	JOINT	identity	spline	delta_OOF_R2	-0.0140679522434355	-0.0916732479330595	0.0451892371802586				
+B	K4	JOINT	identity	linear	delta_OOF_R2	-0.00118970408090835	-0.00203509902006338	-0.000363535058992204				
+B	K4	JOINT	identity	spline	delta_OOF_R2	-0.00256476454471488	-0.00384450115857319	-0.00128690719785964				
+C	K2	E2	identity	linear	target_label_permutation	-0.00029053312942251			-0.00164171665223695	-0.00414816197508985	0.00257593475495622	0.158415841584158
+C	K2	E4	identity	linear	target_label_permutation	-0.000845324957399418			-0.00115040822919147	-0.00836664800852954	0.00104367652256771	0.544554455445545
+C	K2	E5	identity	linear	target_label_permutation	-0.00147112854634068			-0.00187073804421125	-0.00559186382620433	0.00176687926840747	0.435643564356436
+C	K3	E2	identity	linear	target_label_permutation	-0.00873725999234365			-0.00521685110970391	-0.02072984629609	0.00471467068353863	0.732673267326733
+C	K3	E4	identity	linear	target_label_permutation	-0.0101952294507408			-0.00561735901276559	-0.0387445455890865	0.00215538721214319	0.881188118811881
+C	K3	E5	identity	linear	target_label_permutation	0.00252355810443028			-0.00652973357599104	-0.0189206069130612	0.00499758119792875	0.0594059405940594
+C	K4	E2	identity	linear	target_label_permutation	3.90712572280183e-05			-0.000158069177864884	-0.000426437822912712	0.000165124341982403	0.0792079207920792
+C	K4	E4	identity	linear	target_label_permutation	-0.000406323504617001			-0.000134684169146181	-0.000658006850205617	0.000101667279076262	0.910891089108911
+C	K4	E5	identity	linear	target_label_permutation	-0.000424569209769299			-0.00018634809874944	-0.000561814416781375	0.000304838060119655	0.910891089108911
+D	K2				deliberate_leakage_positive_control	1			1			
+D	K3				deliberate_leakage_positive_control	1			1			
+D	K4				deliberate_leakage_positive_control	1			1			
