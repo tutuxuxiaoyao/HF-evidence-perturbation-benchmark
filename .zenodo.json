@@ -1,0 +1,36 @@
+{
+  "creators": [
+    {
+      "name": "Jiang, Yufen",
+      "affiliation": "Department of Cardiology, Haimen People's Hospital, Nantong, Jiangsu, China"
+    },
+    {
+      "name": "Liu, Tingting",
+      "affiliation": "Department of Cardiology, Haimen People's Hospital, Nantong, Jiangsu, China"
+    },
+    {
+      "name": "Zhao, Yuanyuan",
+      "affiliation": "Department of Cardiology, Haimen People's Hospital, Nantong, Jiangsu, China"
+    },
+    {
+      "name": "Fan, Wenjun",
+      "affiliation": "Department of Cardiology, Haimen People's Hospital, Nantong, Jiangsu, China"
+    }
+  ],
+  "title": "HF evidence-to-perturbation cross-system benchmark: reproducibility archive",
+  "version": "1.0.0",
+  "access_right": "open",
+  "keywords": [
+    "heart failure",
+    "functional genomics",
+    "perturbation",
+    "benchmarking",
+    "target prioritization",
+    "transcriptomics",
+    "genetics",
+    "cardiomyocytes"
+  ],
+  "license": "mit",
+  "upload_type": "software",
+  "language": "eng"
+}
