@@ -1,24 +1,23 @@
-# v1.0.0 — NARGAB submission reproducibility archive
+# v1.0.0 — reproducibility repository
 
-Initial public archival release prepared for submission to **NAR Genomics and Bioinformatics**.
+Initial public code and figure-source-data release for the manuscript:
+
+**Disease relevance and perturbational consequence are distinct evidence axes: a cross-system heart-failure benchmark**
 
 ## Included
 
-- primary out-of-fold reproduction code from frozen target-level tables;
+- retained primary out-of-fold audit code;
 - publication-figure regeneration scripts;
-- retained robustness, permutation, blocking, leave-one-source-out and post hoc calibration outputs currently present in the GitHub repository;
 - numerical source data for the publication figures currently present in the GitHub repository;
 - provenance and data-availability documentation;
-- Zenodo metadata (`.zenodo.json`) and citation metadata (`CITATION.cff`).
+- software-environment, Zenodo-deposit metadata template (`.zenodo.json`), and citation metadata (`CITATION.cff`).
 
-## Complete archival package
+## Persistent archive status
 
-The complete 88-file reproducibility package, including large frozen target-level TSV files that are not all mirrored in GitHub through the current connector workflow, should be uploaded to the associated Zenodo record as:
+The larger frozen target-level tables required by the retained primary OOF audit script are not currently distributed in this GitHub repository. A project-specific persistent archive should be created before the manuscript cites a complete public target-level reproduction bundle.
 
-`NARGAB_Reproducibility_Repository_READY_FOR_GITHUB_ZENODO.zip`
-
-This preserves the full reproducibility archive while the GitHub repository remains the public code and documentation home.
+A Zenodo DOI previously written into draft metadata was verified to resolve to an unrelated record and has been removed. Do not use that DOI for this project.
 
 ## Scope
 
-The archive reproduces the primary target-level out-of-fold benchmark from retained frozen tables and regenerates the publication figures from frozen result tables. The historical project did not retain every upstream source-reconstruction script as a clean standalone script; the archive does not claim otherwise.
+The repository regenerates the publication figures from frozen figure-level result tables and preserves the primary target-level model-refitting/audit logic. The historical project did not retain every upstream source-reconstruction script as a clean standalone workflow, and the repository does not claim otherwise.
