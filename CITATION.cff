@@ -12,9 +12,11 @@ authors:
   - family-names: Fan
     given-names: Wenjun
 version: 1.0.0
-date-released: 2026-09-17
+date-released: 2026-09-18
 year: 2026
 license: MIT
+doi: "10.5281/zenodo.22823039"
+url: "https://doi.org/10.5281/zenodo.22823039"
 repository-code: "https://github.com/tutuxuxiaoyao/HF-evidence-perturbation-benchmark"
 keywords:
   - heart failure
