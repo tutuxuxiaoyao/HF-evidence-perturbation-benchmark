@@ -18,6 +18,8 @@ The repository contains:
 
 ## Full target-level reproduction bundle
 
-The exact frozen target-level tables used by `scripts/01_primary_oof_reproduction.R` are larger than the compact figure-source tables. They should be deposited as a versioned archival data bundle (for example in Zenodo) before journal submission, and the DOI should then be added to the manuscript Data availability statement and this file.
+The complete versioned reproducibility archive, including the larger frozen target-level tables used by `scripts/01_primary_oof_reproduction.R`, is deposited in Zenodo:
+
+https://doi.org/10.5281/zenodo.22823039
 
 The historical project did not retain every upstream source-reconstruction script as a clean standalone script. This repository therefore does not claim full reconstruction from raw public downloads. The retained code reproduces the primary target-level models from the frozen target-level tables and regenerates the publication figures from frozen results.
