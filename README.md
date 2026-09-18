@@ -31,7 +31,7 @@ The primary target-level audit script is:
 source("scripts/01_primary_oof_reproduction.R")
 ```
 
-That audit requires the larger frozen target-level data bundle described in `DATA_AVAILABILITY.md`. A versioned archival deposit should be linked here before journal submission.
+That audit uses the larger frozen target-level data bundle deposited in the versioned Zenodo archive below.
 
 ## Repository structure
 
@@ -49,6 +49,10 @@ The biological input datasets are third-party public resources cited in the manu
 ## Reproducibility boundary
 
 The historical project did not retain every upstream source-reconstruction script as a clean standalone script. This repository therefore does not claim complete reconstruction from raw public downloads. It provides the retained target-level reproduction logic and figure-level reproducibility without fabricating missing provenance.
+
+## Archival DOI
+
+Zenodo version 1.0.0: https://doi.org/10.5281/zenodo.22823039
 
 ## Repository URL
 
